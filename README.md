@@ -1,5 +1,6 @@
 ## Building a Streaming ELT Pipeline from MySQL to Kafka with Flink CDC
 
+![workflow](https://github.com/zablon-oigo/flinkCDC-streaming-ELT-MySQL-Kafka/actions/workflows/ci.yml/badge.svg)
 ![Kafka](https://img.shields.io/badge/Apache%20Kafka-Distributed%20Streaming-black?logo=apache-kafka&logoColor=white)
 ![Flink](https://img.shields.io/badge/Apache%20Flink-Stream%20Processing-E6526F?logo=apacheflink&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-CDC%20Source-4479A1?logo=mysql&logoColor=white)
