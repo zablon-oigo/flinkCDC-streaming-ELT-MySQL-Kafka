@@ -18,3 +18,4 @@ The pipeline continuously monitors database changes such as:
 and streams them into Kafka topics in real time.
 
 #### Architecture Diagram
+<img width="1095" height="335" alt="flink-cdc" src="https://github.com/user-attachments/assets/ebe3cfe1-9f4f-4f04-9c9a-4b1dc46156ef" />
