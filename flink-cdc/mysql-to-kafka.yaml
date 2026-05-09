@@ -1,0 +1,22 @@
+# Description: Sync MySQL all tables to Kafka
+
+
+source:
+  type: mysql
+  hostname: db
+  port: 3306
+  username: root
+  password: 123456
+  tables: app_db.\.*
+  server-id: 5400-5404
+  server-time-zone: UTC
+
+sink:
+  type: kafka
+  name: Kafka Sink
+  properties.bootstrap.servers: kafka:9092
+  topic: yaml-mysql-kafka
+
+pipeline:
+  name: MySQL to Kafka Pipeline
+  parallelism: 1
